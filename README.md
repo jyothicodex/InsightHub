@@ -140,10 +140,7 @@ npm run dev
 
 ---
 
-## 👨‍💻 Developed By
 
-**Jyothi Kumari**  
-*Passionate Full-Stack Developer specializing in modern React ecosystems and AI-integrated Python backends.*
 
 ---
 <div align="center">
