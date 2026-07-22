@@ -18,6 +18,11 @@ function Login({ onLogin }) {
     }
   };
 
+  const handleDemoLogin = () => {
+    setCredentials({ username: "jyothi", password: "123" });
+    onLogin();
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#f8faff] via-[#f3efff] to-[#eef2ff] flex items-center justify-center p-4">
       <div className="w-full max-w-md">
@@ -80,6 +85,19 @@ function Login({ onLogin }) {
               Sign In
             </button>
           </form>
+
+          <div className="mt-6 pt-6 border-t border-indigo-100/50">
+            <p className="text-sm text-slate-500 mb-3 font-medium">Demo Access</p>
+            <button
+              onClick={handleDemoLogin}
+              className="w-full bg-white hover:bg-indigo-50 text-indigo-600 py-3 rounded-xl font-bold shadow-sm border border-indigo-100 transition-all"
+            >
+              Quick Login (Demo)
+            </button>
+            <p className="text-xs text-slate-400 mt-3">
+              Mock Credentials: <span className="font-semibold text-slate-600">jyothi</span> / <span className="font-semibold text-slate-600">123</span>
+            </p>
+          </div>
 
         </div>
       </div>
