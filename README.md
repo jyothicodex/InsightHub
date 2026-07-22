@@ -130,7 +130,11 @@ npm run dev
 
 ## 🎮 How to Demo
 
-1. **Login:** Open the frontend URL. Click the **Quick Login (Demo)** button on the authentication screen to instantly access the dashboard.
+1. **Login:** Open the frontend URL (`http://localhost:5173`). 
+   - Click the **Quick Login (Demo)** button on the authentication screen to instantly access the dashboard.
+   - Or, manually enter the demo credentials: 
+     - **Username:** `jyothi`
+     - **Password:** `123`
 2. **Upload:** Head to the Upload section and drop a technical PDF (like a manual or code of conduct).
 3. **Chat:** Navigate to the AI Chat interface and ask a question about the document you just uploaded. Watch as Gemini extracts the exact answer from your file!
 
